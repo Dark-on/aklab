@@ -1,16 +1,21 @@
 #include "calculator.h"
 
+// first comment
 int Calculator::Add (double a, double b)
 {
+	//second comment
 	return a + b + 0.5;
 }
 
-int Calculator::Sub (double a, double b)
+int Calculator::Sub (double c, double b)
 {
-    return Add (a, -b);
+	//change a to c
+    return Add (c, -b);
 }
 
 int Calculator::Mul (double a, double b)
 {
-    return a * b + 0.5;
+    //one line is lost
 }
+
+//todo one more method
