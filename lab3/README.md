@@ -1,16 +1,5 @@
-## lab 3
-### keys list
-* -c --config
-* -h --help
+Key List
 
-### how to install
-$ make
-
-### how to uninstall
-$ make clean
-
-### Try
-* $ ./slab3 -c config_file.conf
-* $ ./slab3 --config=conf.conf
-* $ ./slab3 -h
-* $ ./slab3 --help
+    -h --help
+    -c --config
+ 
